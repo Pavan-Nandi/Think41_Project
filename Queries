@@ -1,0 +1,16 @@
+
+//create a table using the above columns in products.csv
+create table products {
+    id number primary key,
+    cost number,
+    category varchar,
+    name varchar,
+    brand varchar,
+    retail_price number,
+    department varchar,
+    sku varchar,
+    distribution_center_id number
+}
+//inserting it manually
+//taking the values one by one in th products.csv file
+insert into products values (13842,2.51874999084975,'Accessories','Low Profile Dyed Cotton Twill Cap - Navy W39S55D','MG',6.25,'Women','EBD58B8A3F1D72F4206201DA62FB1204',1);
